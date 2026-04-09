@@ -395,7 +395,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     async function fetchBilibiliViews() {
-        const els = document.querySelectorAll('.experimentalgamesgame-views[data-bvid]');
+        const els = document.querySelectorAll('.experimentalgame-views[data-bvid]');
         if (!els.length) return;
         const bvidMap = {};
         els.forEach(el => {
