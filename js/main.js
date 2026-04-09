@@ -505,7 +505,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const gameAll = document.getElementById('game-all');
 
     if (gameFeatured || gameAll) {
-        loadJSON('/data/games.json').then(data => {
+        loadJSON('/data/experimentalgames.json').then(data => {
             if (gameFeatured) {
                 const featured = data.filter(g => g.featured);
                 gameFeatured.innerHTML = featured.map(renderGameCard).join('');
