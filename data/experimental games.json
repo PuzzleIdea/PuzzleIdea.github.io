@@ -1,23 +1,20 @@
 [
   {
-    "id": "UnmaskingDay",
+    "id": "Silence Dream",
     "featured": true,
-    "name": "Unmasking Day",
-    "nameZh": "卸装日 Unmasking Day",
-    "role": "Technical Art & Client Development",
-    "roleZh": "技术美术与客户端程序",
-    "desc": "A retro-styled text-based deduction game built at Global Game Jam 2026. Dive into hidden truths with an AI called the Unmasking System.",
-    "descZh": "Global Game Jam 2026 上完成的复古风格文字推理游戏。借助名为「Unmasking 系统」的 AI，潜入网络深水，挖掘被隐藏的真相。",
-    "detail": "A retro-styled text-based deduction game created during <strong>Global Game Jam 2026</strong>. You play as a user who has gained beta access to the <em>Unmasking System</em> — an AI tool that dives into the hidden depths of the internet to excavate buried truths. As the boundary between the virtual and the real blurs, can you still tell what is a disguise and what is genuine?",
-    "detailZh": "在 <strong>Global Game Jam 2026</strong> 上完成的复古风格文字推理游戏。玩家扮演一名获得「Unmasking 系统」内测资格的用户，这个 AI 工具能潜入网络深水，挖掘被隐藏的真相。当虚拟与现实的边界逐渐模糊，你是否还能分辨——什么是伪装，什么又是真实？",
-    "video": "//player.bilibili.com/player.html?isOutside=true&aid=115994500532047&bvid=BV1eS64BNEem&cid=35749692453&p=1",
+    "name": "Silence Dream",
+    "nameZh": "回梦无声",
+    "role": "Design & Art & Program & Music",
+    "roleZh": "设计 & 美术 & 程序 & 音乐音效",
+    "desc": "This is an experimental game built on the concept of “transferred design”: It shifts an overly abstract or grand theme onto a highly analogous, concrete object or phenomenon, using it as a substitute for the core game mechanics. By encouraging players to engage with and reflect on this specific element, the game leads them to indirectly contemplate the original theme. This approach helps prevent the experience from becoming a vague or slogan-like expression due to the scale of the subject matter.",
+    "descZh": "这是一款实验性游戏，理念基于“转移设计手段”：将过于宏大的主题转移到高度相似的具体物体或现象上，将其代替原主题作为游戏机制，通过激励玩家思考该具体现象或物体，进一步思考原主题。可避免由于主题的宏大导致游戏成为空泛的宣传口号。",
+    "detail": "A puzzle game centered on the theme of the relationship between the self and one’s inner identity. Drawing on the strong parallels between dream interpretation and self-exploration, the game uses the interplay between dreams and reality as its core design logic. Rather than repeatedly instructing players to reflect or critique themselves, the game introduces methods of dream interpretation, encouraging players to explore and understand their own dreams in real life—ultimately guiding them to discover their inner selves.",
+    "detailZh": "一款主题为人与自我所设计的解谜游戏。由于解梦逻辑与探索自我这一主题的高度相似特征，尝试将梦境与现实的关系构成游戏底层逻辑。游戏通过指导玩家了解解梦的手段，激发玩家在现实中解开自身梦境，寻找自己的内心来阐释主题，而非反复教育玩家要自我反思与批判。",
     "image": "",
-    "tags": ["Unity", "C#", "Tech Art", "Shader", "Text Adventure"],
-    "year": 2026,
-    "awards": "GGJ 2026 Chongqing — Best Art Style & Best Game Design",
-    "awardsZh": "GGJ 2026 重庆站 — 最佳美术风格 & 最佳游戏设计",
+    "tags": ["Unity", "C#", "Puzzle", "Level"],
+    "year": 2025,
     "links": [
-      { "label": "Bilibili", "icon": "fab fa-bilibili", "url": "https://www.bilibili.com/video/BV1eS64BNEem" }
+      { "label": "Steam", "icon": "fab fa-steam", "url": "https://store.steampowered.com/app/2983220/_/" }
     ]
   },
   {
