@@ -501,8 +501,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Games
-    const gameFeatured = document.getElementById('game-featured');
-    const gameAll = document.getElementById('game-all');
+    const gameFeatured = document.getElementById('experimentalgame-featured');
+    const gameAll = document.getElementById('experimentalgame-all');
 
     if (gameFeatured || gameAll) {
         loadJSON('/data/experimentalgames.json').then(data => {
