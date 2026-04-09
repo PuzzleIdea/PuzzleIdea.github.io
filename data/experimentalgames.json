@@ -11,7 +11,7 @@
     "detail": "A experimental puzzle game centered on the theme of the relationship between the self and one’s inner identity. Drawing on the strong parallels between dream interpretation and self-exploration, the game uses the interplay between dreams and reality as its core design logic. Rather than repeatedly instructing players to reflect or critique themselves, the game introduces methods of dream interpretation, encouraging players to explore and understand their own dreams in real life—ultimately guiding them to discover their inner selves.",
     "detailZh": "一款主题为人与自我所设计的实验性解谜游戏。由于解梦逻辑与探索自我这一主题的高度相似特征，尝试将梦境与现实的关系构成游戏底层逻辑。游戏通过指导玩家了解解梦的手段，激发玩家在现实中解开自身梦境，寻找自己的内心来阐释主题，而非反复教育玩家要自我反思与批判。",
     "image": "/img/experimental games/Silence Dream.png",
-    "tags": ["Unity", "C#", "Puzzle", "Level"],
+    "tags": ["Inner Identity", "Dream Interpretation", "transferred design", "Puzzle Game"],
     "year": 2025,
     "links": [
       { "label": "Steam", "icon": "fab fa-steam", "url": "https://store.steampowered.com/app/2983220/_/" }
@@ -26,10 +26,10 @@
     "roleZh": "设计 & 美术 & 程序 & 音乐音效",
     "desc": "This is an experimental game built on the concept of <strong>'transferred design'</strong>: Players are trapped in an endless cycle of reincarnation, progressing with the 'assistance' of their previous incarnations. The mechanics faithfully replicate the concepts of rebirth and inherited legacy. However, because the game has no definitive ending—no final level—it seeks to inspire players to ponder the meaning of life beyond eternity and the essence of the world.",
     "descZh": "这是一款实验性游戏，理念基于<strong>“转移设计手段”</strong>：玩家在游戏中不断轮回，在“上一世”的“帮助”下继续前进。机制还原了轮回，传承的内容，但由于游戏本身没有结束（没有final level），尝试激发玩家思考无尽之后的意义和世界",
-    "detail": "The core theme of the game is infinity. To avoid turning this majestic idea into mere empty slogans or well-meaning but vacuous statements, the mechanics center on concrete, highly specific manifestations of historical legacy and reincarnation. For instance, the three statues in the game symbolize Science, Philosophy, and Art respectively. The game contains no text and offers no traditional rewards. Through subtle, implicit means, it reveals what truly lies behind the concept of endlessness — prompting players to reflect on the profound position and meaning that infinity holds.",
-    "detailZh": "游戏主题为无尽，但作为宏大的主题，为了避免游戏表达的内容成为空洞的口号或正确的废话，将机制聚焦于有高度相似特称的历史传承和轮回，例如游戏中的三个雕像分别代表科学，哲学和艺术。而游戏中没有任何文字或者奖励，隐晦的展现无尽背后所代表的位置。",
+    "detail": "At its heart, the game speaks of infinity — a vast and majestic theme. Yet rather than letting it dissolve into empty slogans or hollow platitudes, the mechanics turn instead toward something far more intimate and tangible: the quiet inheritance of knowledge and the eternal cycle of reincarnation. For instance, three ancient statues stand as silent witnesses — one for Science, one for Philosophy, and one for Art — each a vessel carrying the echoes of human thought across countless lives. With neither text nor rewards to guide the way, the game unfolds in subtle silence. Through quiet imagery and unspoken resonance, it gently unveils what truly lingers behind the veil of endlessness: the profound meaning, the hidden position, and the quiet question that infinity leaves behind.",
+    "detailZh": "游戏主题为无尽，但作为宏大的主题，为了避免游戏表达的内容成为空洞的口号或正确的废话，将机制聚焦于有高度相似特征的主题：传承与轮回。例如游戏中的三个雕像分别代表科学，哲学和艺术。而游戏中没有任何文字或者奖励，隐晦的展现无尽背后所代表的位置。",
     "image": "/img/experimental games/LifeCycle.png",
-    "tags": ["Unity", "C#", "Advanture", "2D"],
+    "tags": ["Infinity", "Rebirth", "Advanture", "2D"],
     "year": 2025,
     "links": [
       { "label": "Itch.io", "icon": "fab fa-itch-io", "url": "https://puzzleidea.itch.io/lifecycle" }
