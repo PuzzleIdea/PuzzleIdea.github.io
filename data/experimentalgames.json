@@ -33,7 +33,7 @@ The game contains no text and offers no traditional rewards. Through subtle, imp
     "tags": ["Unity", "C#", "Advanture", "2D"],
     "year": 2025,
     "links": [
-      { "label": "Itch", "icon": "fab fa-steam", "url": "https://www.bilibili.com/video/BV1ufBZBkEp2" }
+      { "label": "Itch.io", "icon": "fab fa-itch-io", "url": "https://puzzleidea.itch.io/lifecycle" }
     ]
   },
 ]
