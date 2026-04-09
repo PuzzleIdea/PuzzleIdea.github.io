@@ -395,7 +395,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     async function fetchBilibiliViews() {
-        const els = document.querySelectorAll('.game-views[data-bvid]');
+        const els = document.querySelectorAll('.experimentalgame-views[data-bvid]');
         if (!els.length) return;
         const bvidMap = {};
         els.forEach(el => {
@@ -501,11 +501,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Games
-    const gameFeatured = document.getElementById('game-featured');
-    const gameAll = document.getElementById('game-all');
+    const gameFeatured = document.getElementById('experimentalgame-featured');
+    const gameAll = document.getElementById('experimentalgame-all');
 
     if (gameFeatured || gameAll) {
-        loadJSON('/data/games.json').then(data => {
+        loadJSON('data/experimentalgames.json').then(data => {
             if (gameFeatured) {
                 const featured = data.filter(g => g.featured);
                 gameFeatured.innerHTML = featured.map(renderGameCard).join('');
