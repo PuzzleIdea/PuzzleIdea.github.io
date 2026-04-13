@@ -394,7 +394,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    async function fetchBilibiliViews() {
+    async function fetchSteamViews() {
         const els = document.querySelectorAll('.experimentalgame-views[data-bvid]');
         if (!els.length) return;
         const bvidMap = {};
@@ -417,7 +417,35 @@ document.addEventListener('DOMContentLoaded', () => {
                     });
                 }
             } catch (e) {
-                console.warn('Bilibili API error for', bvid, e);
+                console.warn('Steam API error for', bvid, e);
+            }
+        }
+    }
+
+    async function fetchItchViews() {
+        const els = document.querySelectorAll('.game-views[data-bvid]');
+        if (!els.length) return;
+        const bvidMap = {};
+        els.forEach(el => {
+            const bvid = el.dataset.bvid;
+            if (!bvidMap[bvid]) bvidMap[bvid] = [];
+            bvidMap[bvid].push(el);
+        });
+        for (const [bvid, elements] of Object.entries(bvidMap)) {
+            try {
+                const data = await fetchBilibiliViewJSONP(bvid);
+                if (data && data.code === 0) {
+                    const views = data.data.stat.view;
+                    const enText = formatCount(views) + ' views';
+                    const zhText = formatCount(views, 'zh') + ' \u64ad\u653e';
+                    elements.forEach(el => {
+                        el.querySelector('.en').textContent = enText;
+                        el.querySelector('.zh').textContent = zhText;
+                        el.style.display = '';
+                    });
+                }
+            } catch (e) {
+                console.warn('Itch API error for', bvid, e);
             }
         }
     }
@@ -500,12 +528,30 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    //Experimental Games
+    const experimentalgameFeatured = document.getElementById('experimentalgame-featured');
+    const experimentalgameAll = document.getElementById('experimentalgame-all');
+
+    if (experimentalgameFeatured || experimentalgameAll) {
+        loadJSON('data/experimentalgames.json').then(data => {
+            if (experimentalgameFeatured) {
+                const featured = data.filter(g => g.featured);
+                experimentalgameFeatured.innerHTML = featured.map(renderGameCard).join('');
+            }
+            if (experimentalgameAll) {
+                experimentalgameAll.innerHTML = data.map(renderGameDetail).join('');
+            }
+            observeReveals();
+            fetchSteamViews();
+        });
+    }
+
     // Games
-    const gameFeatured = document.getElementById('experimentalgame-featured');
-    const gameAll = document.getElementById('experimentalgame-all');
+    const gameFeatured = document.getElementById('game-featured');
+    const gameAll = document.getElementById('game-all');
 
     if (gameFeatured || gameAll) {
-        loadJSON('data/experimentalgames.json').then(data => {
+        loadJSON('/data/games.json').then(data => {
             if (gameFeatured) {
                 const featured = data.filter(g => g.featured);
                 gameFeatured.innerHTML = featured.map(renderGameCard).join('');
@@ -514,7 +560,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 gameAll.innerHTML = data.map(renderGameDetail).join('');
             }
             observeReveals();
-            fetchBilibiliViews();
+            fetchItchViews();
         });
     }
 });
