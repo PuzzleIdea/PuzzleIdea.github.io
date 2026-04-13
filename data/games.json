@@ -10,7 +10,7 @@
     "descZh": "2025 GMTK Game Jam 作品，主题为Loop。在《LoopRoom》中，相同的谜题会随着每一次循环发生变化，你需要牺牲你的能力，进入下一循环，在不断自我削弱中反复通关同一场地。保留下来的能力将让每一轮解法都截然不同、且愈发困难。",
     "detail": "LoopRoom is a mind-bending puzzle game centered on cycles and sacrifice. Start with three powerful abilities. Solve every puzzle in the stage to claim the key — then sacrifice one ability and loop back, weaker than before. The same stage and puzzles evolve with every choice you make. The order you give up your abilities is yours alone, turning familiar challenges into wildly different and increasingly difficult solutions. Weigh every sacrifice carefully. With less and less at your disposal, can you still break the loop?",
     "detailZh": "《Loop》是一款围绕“循环与取舍”展开的解谜游戏。玩家在开局即掌握三种完整能力，通过破解同一场地中的全部谜题来获取钥匙，但每完成一轮，都必须主动牺牲一种能力，带着残缺的自己重新开始。 随着循环推进，场地与谜题会根据你上一轮的行动发生微妙变化，而能力的舍弃顺序完全由你决定——这意味着即使是同一关卡、同一谜题，也会因你的选择而演化出截然不同的解法。你将不断在“更少的能力”与“更复杂的局面”之间博弈，直到用最后的可能性，完成这场关于循环与自我的挑战。",
-    "image": "",
+    "image": "/img/game/LoopRoom.png",
     "tags": ["Unity", "C#", "Puzzle", "2D", "2025GMTKGameJam"],
     "year": 2025,
     "links": [
@@ -28,7 +28,7 @@
     "descZh": "2025Global Gamejam作品，游戏将名为buuble的主题转化为虚无与幻境，在起起伏伏中通过所有谜题。",
     "detail": "“Bubble” in the game represents illusory and unrealistic expectations. Inspired by the Diamond Sutra, Loop invites players to adopt a transcendent outlook — to observe all things in the world without attachment or entanglement with the past. Everything in existence is ultimately nothingness: fleeting, empty, and transient, much like a dream, an illusion, a bubble, or dew vanishing in the morning light. Would you like it even more concise, more philosophical, or in a stronger promotional tone?",
     "detailZh": "泡沫在游戏中意味着虚幻不切实际的期望。结合《金刚经》——佛教经典——中的相关论述，此游戏旨在表达以超脱态度观照世间万物的见解，无需过往执念。世间万物皆归于虚无，终成幻灭。",
-    "image": "",
+    "image": "/img/game/VagrantBird.png",
     "tags": ["Unity", "C#", "Puzzle", "2D"],
     "year": 2025,
     "links": [
