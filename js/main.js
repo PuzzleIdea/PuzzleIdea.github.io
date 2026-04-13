@@ -472,7 +472,7 @@ document.addEventListener('DOMContentLoaded', () => {
         loadJSON('/data/publications.json').then(data => {
             if (pubFeatured) {
                 const featured = data.filter(p => p.featured);
-                pubFeatured.innerHTML = featured.map(renderGameCard).join('');
+                pubFeatured.innerHTML = featured.map(renderPub).join('');
                 if (pubCount) {
                     const total = data.length;
                     const fCount = featured.length;
@@ -482,7 +482,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
             if (pubAll) {
-                pubAll.innerHTML = data.map(renderGameDetail).join('');
+                pubAll.innerHTML = data.map(renderPub).join('');
                 if (pubAllCount) {
                     pubAllCount.innerHTML = `
                         <span class="en">${data.length} publications</span>
