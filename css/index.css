@@ -615,6 +615,30 @@ img { max-width:100%; display:block; }
     color: var(--fg3);
     font-style: italic;
 }
+.pub-desc,
+.pub-detail {
+    margin: 12px 0;
+    line-height: 1.5;
+    color: var(--text-secondary);
+}
+
+.pub-abstract {
+    margin-top: 16px;
+    font-size: 0.95em;
+}
+
+.pub-abstract summary {
+    cursor: pointer;
+    color: var(--accent-color);
+    font-weight: 500;
+    padding: 8px 0;
+}
+
+.pub-abstract p {
+    margin-top: 8px;
+    white-space: pre-line;   /* 保留摘要中的换行 */
+    line-height: 1.6;
+}
 
 /* ── View All button ── */
 .view-all-wrap {
