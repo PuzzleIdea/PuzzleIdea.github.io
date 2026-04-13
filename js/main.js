@@ -133,70 +133,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function renderPub(p) {
         const link = p.link ? ` href="${p.link}" target="_blank" rel="noopener"` : '';
-    const titleTag = p.link 
-        ? `<a${link}>${p.title}</a>` 
-        : p.title;
-
-    // 支持中文标题
-    const titleZhTag = p.titleZh 
-        ? (p.link ? `<a${link}>${p.titleZh}</a>` : p.titleZh) 
-        : '';
-
-    // 构建额外描述部分（可控显示）
-    let extraHtml = '';
-
-    if (p.desc || p.descZh) {
-        extraHtml += `
-            <p class="pub-desc">
-                <span class="en">${p.desc || ''}</span>
-                <span class="zh">${p.descZh || p.desc || ''}</span>
-            </p>`;
-    }
-
-    if (p.detail || p.detailZh) {
-        extraHtml += `
-            <p class="pub-detail">
-                <span class="en">${p.detail || ''}</span>
-                <span class="zh">${p.detailZh || p.detail || ''}</span>
-            </p>`;
-    }
-
-    // Abstract 默认隐藏，可点击展开（推荐做法，避免页面过长）
-    if (p.abstract || p.abstractZh) {
-        extraHtml += `
-            <details class="pub-abstract">
-                <summary class="mono">
-                    <span class="en">Abstract</span>
-                    <span class="zh">摘要</span>
-                </summary>
-                <p>
-                    <span class="en">${p.abstract || ''}</span>
-                    <span class="zh">${p.abstractZh || p.abstract || ''}</span>
+        const titleTag = p.link ? `<a${link}>${p.title}</a>` : p.title;
+        return `
+        <div class="pub reveal">
+            <div class="pub-thumb">
+                <img src="${p.image}" alt="" onerror="this.style.display='none'">
+                <span class="pub-thumb-label mono">${p.thumbLabel}</span>
+            </div>
+            <div class="pub-body">
+                <span class="pub-badge ${p.level}">${p.levelLabel}</span>
+                <h3>${titleTag}</h3>
+                <p class="pub-meta">${p.authors}</p>
+                <p class="pub-venue">
+                    <span class="en">${p.venue}</span>
+                    <span class="zh">${p.venueZh || p.venue}</span>
                 </p>
-            </details>`;
-    }
-
-    return `
-    <div class="pub reveal">
-        <div class="pub-thumb">
-            <img src="${p.image || ''}" alt="" onerror="this.style.display='none'">
-            <span class="pub-thumb-label mono">${p.thumbLabel || ''}</span>
-        </div>
-        <div class="pub-body">
-            <span class="pub-badge ${p.level || ''}">${p.levelLabel || ''}</span>
-            
-            <h3>${titleTag}</h3>
-            ${titleZhTag ? `<h3 class="zh-title">${titleZhTag}</h3>` : ''}
-            
-            <p class="pub-meta">${p.authors}</p>
-            <p class="pub-venue">
-                <span class="en">${p.venue}</span>
-                <span class="zh">${p.venueZh || p.venue}</span>
-            </p>
-            
-            ${extraHtml}
-        </div>
-     </div>;
+            </div>
+        </div>`;
     }
 
     function renderProjCard(p) {
