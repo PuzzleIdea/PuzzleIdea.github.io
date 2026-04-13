@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // ── Renderers ──
 
-    function renderPub(p) {
+   function renderPub(p) {
         const link = p.link ? ` href="${p.link}" target="_blank" rel="noopener"` : '';
         const titleTag = p.link ? `<a${link}>${p.title}</a>` : p.title;
         return `
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         </div>`;
     }
-
+    
     function renderProjCard(p) {
         const badgeCls = p.status;
         const labelEn = p.statusLabel;
