@@ -4,38 +4,35 @@
     "featured": true,
     "name": "LoopRoom",
     "nameZh": "LoopRoom",
-    "role": "Design & Art & Programe",
+    "role": "Design & Art & Program",
     "roleZh": "设计&程序&美术",
     "desc": "In LoopRoom, the same puzzles change with each loop. You must sacrifice your abilities to enter the next cycle, repeatedly clearing the same stage while constantly weakening yourself. The abilities you retain will make every solution completely different — and increasingly difficult.",
-    "descZh": "2026 GMTK Game Jam 作品，主题为Loop。在《LoopRoom》中，相同的谜题会随着每一次循环发生变化，你需要牺牲你的能力，进入下一循环，在不断自我削弱中反复通关同一场地。保留下来的能力将让每一轮解法都截然不同、且愈发困难。",
+    "descZh": "2025 GMTK Game Jam 作品，主题为Loop。在《LoopRoom》中，相同的谜题会随着每一次循环发生变化，你需要牺牲你的能力，进入下一循环，在不断自我削弱中反复通关同一场地。保留下来的能力将让每一轮解法都截然不同、且愈发困难。",
     "detail": "LoopRoom is a mind-bending puzzle game centered on cycles and sacrifice. Start with three powerful abilities. Solve every puzzle in the stage to claim the key — then sacrifice one ability and loop back, weaker than before. The same stage and puzzles evolve with every choice you make. The order you give up your abilities is yours alone, turning familiar challenges into wildly different and increasingly difficult solutions. Weigh every sacrifice carefully. With less and less at your disposal, can you still break the loop?",
     "detailZh": "《Loop》是一款围绕“循环与取舍”展开的解谜游戏。玩家在开局即掌握三种完整能力，通过破解同一场地中的全部谜题来获取钥匙，但每完成一轮，都必须主动牺牲一种能力，带着残缺的自己重新开始。 随着循环推进，场地与谜题会根据你上一轮的行动发生微妙变化，而能力的舍弃顺序完全由你决定——这意味着即使是同一关卡、同一谜题，也会因你的选择而演化出截然不同的解法。你将不断在“更少的能力”与“更复杂的局面”之间博弈，直到用最后的可能性，完成这场关于循环与自我的挑战。",
     "image": "",
     "tags": ["Unity", "C#", "Puzzle", "2D", "2025GMTKGameJam"],
     "year": 2025,
     "links": [
-      { "label": "Itch", "icon": "fab fa-bilibili", "url": "https://puzzleidea.itch.io/loop-room" }
+      { "label": "Itch.io", "icon": "fab fa-Itch-io", "url": "https://puzzleidea.itch.io/loop-room" }
     ]
   },
   {
-    "id": "DongDaDong",
+    "id": "Vagrant Bird",
     "featured": true,
-    "name": "Dong! Da-Dong!",
-    "nameZh": "咚！哒咚！",
-    "role": "Technical Art & Client Development",
-    "roleZh": "技术美术与客户端程序",
-    "desc": "A rhythm-action game where drumbeats are your contract, your battle, and your salvation. miHoYo 2025 Game Design Competition — National 1st Place.",
-    "descZh": "鼓点即契约、即战斗、即拯救的节奏动作游戏。米哈游游戏策划大赛 2025 全国第一名。",
-    "detail": "<em>\"Dancing together\"</em> is not merely a form of interaction — it is a philosophical attitude of resonating with nature, with living beings, and with all of existence. In <strong>Dong! Da-Dong!</strong>, dancing is a contract, a battle, and a salvation. We invite players to become <em>Drum Spiritists</em> who dance with all things, conversing with the game world through the primal rhythms of tribal drumbeats — summoning spirits of nature and spirits of beasts to dispel the <em>Silence</em> that erodes the world, so that life may surge once more across the land with every beat and every dance.",
-    "detailZh": "「共舞」不仅是一种互动方式，更是一种与自然、生灵、乃至整个存在共鸣的哲学态度。在<strong>《咚！哒咚！》</strong>中，共舞是契约，是战斗，也是拯救。我们期待玩家成为与万物共舞的「鼓灵者」，通过原始部落的鼓点节奏与游戏世界对话，召唤自然之灵与动物之灵，驱散侵蚀世界的「静默」，让生机随着鼓点与舞蹈，在这片土地上重新澎湃。",
-    "video": "//player.bilibili.com/player.html?isOutside=true&aid=115939370598910&bvid=BV1ufBZBkEp2&cid=35550200975&p=1",
+    "name": "Vagrant Bird",
+    "nameZh": "离群之鸟",
+    "role": "Design & Art & Program & Music",
+    "roleZh": "设计&程序&美术&音乐",
+    "desc": "2025 Global Game Jam entry: The game reinterprets the theme 'Bubble' as a world of nothingness and illusion. Players journey through rising and falling dreamscapes to solve all the puzzles.",
+    "descZh": "2025Global Gamejam作品，游戏将名为buuble的主题转化为虚无与幻境，在起起伏伏中通过所有谜题。",
+    "detail": "“Bubble” in the game represents illusory and unrealistic expectations. Inspired by the Diamond Sutra, Loop invites players to adopt a transcendent outlook — to observe all things in the world without attachment or entanglement with the past. Everything in existence is ultimately nothingness: fleeting, empty, and transient, much like a dream, an illusion, a bubble, or dew vanishing in the morning light. Would you like it even more concise, more philosophical, or in a stronger promotional tone?",
+    "detailZh": "泡沫在游戏中意味着虚幻不切实际的期望。结合《金刚经》——佛教经典——中的相关论述，此游戏旨在表达以超脱态度观照世间万物的见解，无需过往执念。世间万物皆归于虚无，终成幻灭。",
     "image": "",
-    "tags": ["Unity", "C#", "Tech Art", "Rhythm", "Shader"],
+    "tags": ["Unity", "C#", "Puzzle", "2D"],
     "year": 2025,
-    "awards": "miHoYo 2025 Game Design Competition — National 1st Place",
-    "awardsZh": "米哈游游戏策划大赛 2025 — 全国第一名",
     "links": [
-      { "label": "Bilibili", "icon": "fab fa-bilibili", "url": "https://www.bilibili.com/video/BV1ufBZBkEp2" }
+      { "label": "Itch.io", "icon": "fab fa-Itch-io", "url": "https://puzzleidea.itch.io/vagrant-bird" }
     ]
   },
   {
