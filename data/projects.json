@@ -94,5 +94,21 @@
     "roleZh": "",
     "tags": ["Design"],
     "image": ""
+  },
+  {
+    "id": "Boring Design",
+    "featured": false,
+    "name": "Boring Design (Design)",
+    "url": "",
+    "status": "Design",
+    "statusLabel": "Design",
+    "desc": "Boredom in games does not necessarily indicate a design failure; rather, it can simply reflect an increase in the player’s familiarity with the game. By leveraging this characteristic, the design attempts to encourage players to think at appropriate key moments.",
+    "descZh": "无聊在游戏中并不意味着设计的失败，而是仅仅意味着玩家对于游戏的熟悉程度提高。利用这一特性，尝试在合适的关键点激励玩家思考。",
+    "detail": "Based on performative interaction, designers do not need to provide increasingly difficult levels or more engaging narratives when players become familiar with level pacing or character abilities.  Instead, they can leverage the inherent creative capacity of humans, using the game environment—including players’ modes of thinking and environmental storytelling—to direct players’ attention toward “something else” that may emerge from within the experience. It is important to emphasize that players are not required to fully understand the designer’s intentions. The purpose of this design approach is not to impose or transmit a fixed ideology, but rather to prompt players to engage in thought—regardless of the outcome of that thinking.",
+    "detailZh": "基于表演式交互，设计师不必在玩家熟悉关卡节奏或角色技能时提供更难的关卡或更加吸引人的剧情，而是尝试利用人类本身的创作能力，用游戏中的环境（包括玩家思考方式和环境叙事），让玩家对“别的事情”产生兴趣。值得强调的是，不必强行让玩家理解设计师的想法，本条设计方法的目的不是在于灌输理念，而是让玩家开始思考，无论结果如何。",
+    "role": "",
+    "roleZh": "",
+    "tags": ["Design"],
+    "image": ""
   }
 ]
