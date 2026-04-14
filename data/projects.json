@@ -64,6 +64,22 @@
     "image": ""
   },
   {
+    "id": "The social nature of games",
+    "featured": false,
+    "name": "The social nature of games (Knowledge)",
+    "url": "",
+    "status": "Knowledge",
+    "statusLabel": "Knowledge",
+    "desc": "The social nature of games arises from interaction and communication between players.",
+    "descZh": "游戏具有社会性，其社会性出自玩家与玩家之间的交流。",
+    "detail": "Although video game design should primarily focus on the designer rather than the player, players collectively constitute the social dimension of games. This is one of the most interesting outcomes following the separation of the roles of artist, artwork, and audience, and also represents the most significant distinction from traditional games. It is therefore an important direction that merits attention from both game designers and game researchers.",
+    "detailZh": "虽然电子游戏设计应该聚焦于设计师，而非玩家，但玩家组成了游戏的社会性，这是在艺术家，艺术作品和观赏者这三种身份分离后最有意思的地方，也是与原始游戏最大的不同。这是值得游戏设计师和游戏研究人员值得注意的方向。",
+    "role": "",
+    "roleZh": "",
+    "tags": ["Knowledge"],
+    "image": ""
+  },
+  {
     "id": "Differential repetition",
     "featured": true,
     "name": "Differential repetition (Basic Design)",
