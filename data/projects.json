@@ -33,7 +33,7 @@
   },
   {
     "id": "The separation of the designer’s and the viewer’s/observer’s identities",
-    "featured": true,
+    "featured": false,
     "name": "The separation of the designer’s and the viewer’s/observer’s identities (Knowledge)",
     "url": "",
     "status": "Knowledge",
@@ -48,20 +48,19 @@
     "image": ""
   },
   {
-    "id": "embodichain",
+    "id": "Differential repetition",
     "featured": true,
-    "name": "EmbodiChain",
-    "url": "https://github.com/DexForce/EmbodiChain",
-    "status": "contrib",
-    "statusLabel": "Contrib",
-    "statusLabelZh": "参与",
-    "desc": "End-to-end GPU-accelerated Embodied AI framework by DexForce. I built the OptiX 8 real-time ray tracing renderer.",
-    "descZh": "跨维科技端到端GPU加速具身智能框架。我负责基于OptiX 8的实时光追渲染模块。",
-    "detail": "End-to-end GPU-accelerated Embodied AI framework by DexForce. I built the <strong>OptiX 8 real-time ray tracing renderer</strong> — multi-camera parallel pipeline on warp-lang, plus HPC module architecture design.",
-    "detailZh": "跨维科技端到端GPU加速具身智能框架。我负责<strong>基于OptiX 8的实时光追渲染模块</strong>——基于warp-lang的多相机并行渲染管线与HPC模块架构设计。",
-    "role": "OptiX 8 RT renderer & HPC module architecture",
-    "roleZh": "OptiX 8 光追渲染器 & HPC模块架构",
-    "tags": ["OptiX 8", "CUDA", "warp-lang", "Ray Tracing"],
-    "image": "/img/projects/embodichain.png"
+    "name": "Differential repetition (Basic Design)",
+    "url": "",
+    "status": "Design",
+    "statusLabel": "Design",
+    "desc": "Difference within repetition” does not refer to material or physical distinctions; rather, it originates from the inherent differences among individuals. Variations in one’s cognition, past experiences, emotions, and personality all contribute to the emergence of such differences, which in turn lead to divergent interpretations of the same content.",
+    "descZh": "“差别重复”中的差别并非指物质上的差别，而源于每个人本身的差别，每个人的思想，过去的经历，情感，性格均会导致差别的产生。进一步导致对于相同内容的不同解读。",
+    "detail": "This design methodology foregrounds a non-prescriptive approach, wherein the designer deliberately avoids imposing predetermined logic or interpretive frameworks upon the player. Instead, the phenomenon itself is presented in a relatively unmediated form, thereby encouraging players to engage in autonomous reflection and meaning-making. Although the designer’s subjective perceptions and experiential insights are inevitably embedded within the video game, the design should minimize explicit guidance so as to refrain from directing or constraining the player’s interpretive process.",
+    "detailZh": "这种设计方法突出了一种非规定性的方法，其中设计者故意避免将预定的逻辑或解释框架强加给玩家。相反，这种现象本身是以一种相对无中介的形式呈现的，从而鼓励玩家进行自主反思和意义创造。尽管设计师的主观感知和经验见解不可避免地嵌入到视频游戏中，但设计应尽量减少明确的指导，以避免指导或限制玩家的解释过程。",
+    "role": "",
+    "roleZh": "",
+    "tags": ["Design"],
+    "image": ""
   }
 ]
