@@ -1,19 +1,12 @@
 [
   {
-    "id": "vultorch",
+    "id": "Game Expression and Representational Cognition",
     "featured": true,
-    "name": "Vultorch",
-    "url": "https://github.com/ChenlizheMe/Vultorch",
-    "status": "open-source",
-    "statusLabel": "Open Source",
-    "desc": "Real-time CUDA tensor visualization with Vulkan zero-copy. GPU→GPU blit with zero memcpy via shared memory.",
-    "descZh": "基于Vulkan零拷贝的CUDA张量实时可视化工具。通过共享显存实现GPU→GPU直传，完全消除内存拷贝。",
-    "detail": "Real-time CUDA tensor visualization with Vulkan zero-copy. <code>show()</code> does GPU→GPU blit; <code>create_tensor()</code> eliminates memcpy entirely via shared memory. Built-in ImGui, 3D scene view, docking layout.",
-    "detailZh": "基于Vulkan零拷贝的CUDA张量实时可视化工具。<code>show()</code> 实现GPU→GPU直传；<code>create_tensor()</code> 通过共享显存完全消除内存拷贝。内置ImGui、3D场景视图与可拖拽窗口布局。",
-    "role": "",
-    "roleZh": "",
-    "tags": ["Vulkan", "CUDA", "C++", "pybind11", "Zero-Copy"],
-    "image": "/img/projects/vultorch.png"
+    "name": "Game Expression and Representational Cognition: The Designer’s Lived Experience of the World and Its Articulation Through Play",
+    "desc": "It focuses on how game designers understand and conceptualize games, rather than on how to make games enjoyable.",
+    "descZh": "聚焦于设计师如何理解游戏，而非如何让游戏好玩。",
+    "detail": "This theory emphasizes the designer’s active expression of emotion and personal experience as a creator, rather than a mere technical presentation. At the same time, the theory posits that games serve as a mode of human cognition of the world. It shifts the design perspective away from the player or conventional game design principles toward the designer themselves, focusing on the designer’s cognitive and mental processes during game creation, as well as the ways in which such emotions and personal experiences are articulated and expressed through the medium of electronic games.",
+    "detailZh": "本理论强调设计师作为创作者的情感与个人体验的主动表达，而非单纯的技术呈现。同时本理论认为游戏作为人类认知世界的方式，将设计思路从玩家或游戏设计原理转移到设计师本人，聚焦于设计师在设计游戏时的思维活动，以及如何将这种情感或个人体验通过电子游戏进行表达。",
   },
   {
     "id": "infengine",
