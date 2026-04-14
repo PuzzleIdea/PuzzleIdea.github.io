@@ -1,6 +1,6 @@
 [
   {
-    "id": "Game Expression and Representational Cognition",
+    "id": "Game Expression And Representational Cognition",
     "featured": true,
     "name": "Game Expression and Representational Cognition: The Designer’s Lived Experience of the World and Its Articulation Through Play",
     "url":"",
@@ -16,9 +16,9 @@
     "image": ""
   },
   {
-    "id": "Product of human cognitive processes",
+    "id": "Product Of Human Cognitive Processes",
     "featured": true,
-    "name": "Product of human cognitive processes (Basic Knowledge)",
+    "name": "Product Of Human Cognitive Processes (Basic Knowledge)",
     "url":"",
     "status": "Basic Knowledge",
     "statusLabel": "Basic Knowledge",
@@ -32,9 +32,9 @@
     "image": ""
   },
   {
-    "id": "The separation of the designer’s and the viewer’s/observer’s identities",
+    "id": "The Separation Of The Designer’s And The Viewer’s/Observer’s Identities",
     "featured": false,
-    "name": "The separation of the designer’s and the viewer’s/observer’s identities (Knowledge)",
+    "name": "The Separation Of The Designer’s And The Viewer’s/Observer’s Identities (Knowledge)",
     "url": "",
     "status": "Knowledge",
     "statusLabel": "Knowledge",
@@ -48,9 +48,9 @@
     "image": ""
   },
   {
-    "id": "Performative interaction",
+    "id": "Performative Interaction",
     "featured": false,
-    "name": "Performative interaction (Knowledge)",
+    "name": "Performative Interaction (Knowledge)",
     "url": "",
     "status": "Knowledge",
     "statusLabel": "Knowledge",
@@ -64,9 +64,9 @@
     "image": ""
   },
   {
-    "id": "The social nature of games",
+    "id": "The Social Nature Of Games",
     "featured": false,
-    "name": "The social nature of games (Knowledge)",
+    "name": "The Social Nature Of Games (Knowledge)",
     "url": "",
     "status": "Knowledge",
     "statusLabel": "Knowledge",
@@ -80,9 +80,25 @@
     "image": ""
   },
   {
-    "id": "Differential repetition",
+    "id": "Magic Circle Still Alive",
+    "featured": false,
+    "name": "Magic Circle Still Alive (Knowledge)",
+    "url": "",
+    "status": "Knowledge",
+    "statusLabel": "Knowledge",
+    "desc": "Regardless of where a game takes place or how closely it resembles everyday life, the magic circle continues to exist.",
+    "descZh": "无论游戏在哪里进行或它与你日常生活多么相似，魔法圈仍然存在",
+    "detail": "Games are not material objects; they are manifestations of human thought. Even when games intersect with everyday life, the mental state experienced during play remains distinct from that of ordinary living. This distinction serves as evidence for the existence of the “magic circle.”",
+    "detailZh": "游戏不是物质的，它是人类思想的证明，即便游戏与生活接轨，但人们在游玩游戏时的精神状态仍然与日常生活不同，这种不同能证明魔法圈的存在。",
+    "role": "",
+    "roleZh": "",
+    "tags": ["Knowledge"],
+    "image": ""
+  },
+  {
+    "id": "Differential Repetition",
     "featured": true,
-    "name": "Differential repetition (Basic Design)",
+    "name": "Differential Repetition (Basic Design)",
     "url": "",
     "status": "Basic Design",
     "statusLabel": "Basic Design",
@@ -96,9 +112,9 @@
     "image": ""
   },
   {
-    "id": "Inverted-triangle design",
+    "id": "Inverted-Triangle Design",
     "featured": true,
-    "name": "Inverted-triangle design (Design)",
+    "name": "Inverted-Triangle Design (Design)",
     "url": "",
     "status": "Design",
     "statusLabel": "Design",
@@ -112,9 +128,9 @@
     "image": ""
   },
   {
-    "id": "Transfer design",
+    "id": "Transfer Design",
     "featured": false,
-    "name": "Transfer design (Design)",
+    "name": "Transfer Design (Design)",
     "url": "",
     "status": "Design",
     "statusLabel": "Design",
