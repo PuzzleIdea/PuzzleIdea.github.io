@@ -96,8 +96,24 @@
     "image": ""
   },
   {
-    "id": "Transfer design",
+    "id": "Inverted-triangle design",
     "featured": true,
+    "name": "Inverted-triangle design (Design)",
+    "url": "",
+    "status": "Design",
+    "statusLabel": "Design",
+    "desc": "The inverted-triangle design suggests that the player’s gameplay experience should constitute a process of understanding the game’s theme as intended by the designer, rather than merely solving problems derived from established game design principles or prior experience.",
+    "descZh": "倒三角式设计指出，玩家游玩游戏的过程应当为设计师理解游戏主题的过程，而非解答依照游戏设计原理或经验得出的题目。",
+    "detail": "This design philosophy emphasizes that games should express the designer’s authentic inner ideas, rather than function as examinations administered after the designer has completed a “task” of understanding the world. The process of designing a game is itself a process of experiencing the game; therefore, there is no need to strictly adhere to game design principles or conventions that may appear engaging yet ultimately lack depth or meaning.",
+    "detailZh": "本设计理念强调游戏应当呈现出设计师内心真实的想法，而不是成为设计师完成认知世界的“任务”后进行的考试。设计师设计游戏的过程，即为体验游戏的过程，因此无需严格遵守那些看似好玩但无聊的游戏设计原理或经验。",
+    "role": "",
+    "roleZh": "",
+    "tags": ["Design"],
+    "image": ""
+  },
+  {
+    "id": "Transfer design",
+    "featured": false,
     "name": "Transfer design (Design)",
     "url": "",
     "status": "Design",
