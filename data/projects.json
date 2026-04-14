@@ -48,6 +48,22 @@
     "image": ""
   },
   {
+    "id": "Performative interaction",
+    "featured": false,
+    "name": "Performative interaction (Knowledge)",
+    "url": "",
+    "status": "Knowledge",
+    "statusLabel": "Knowledge",
+    "desc": "Performative interaction foregrounds the player’s engagement with game content at the level of cognition and interpretation, rather than treating interaction as the issuance of commands characteristic of conventional human–computer interaction.",
+    "descZh": "表演式交互强调玩家在思维层面与游戏内容的交流，而非人机交互那样下达指令。",
+    "detail": "The inspiration for this approach derives from theater and performance. Its defining characteristic lies in the participant’s complete immersion in the activity in which they are engaged, coupled with an inner acceptance and identification with the role enacted within that activity. For players, this means they are fully aware that they are engaging in pretense and performance, while simultaneously fully identifying with their identity within the game. Building upon this, performative interaction enables designers to correctly recognize the importance of intellectual and emotional exchange with players through electronic games, rather than limiting interaction to mere programmatic feedback.",
+    "detailZh": "这种方法的灵感来自戏剧和表演。其特征在于参与者完全沉浸在他们所从事的活动中，以及对该活动中所扮演角色的内在接受和认同。对于玩家来说，这意味着他们完全意识到自己是假装在扮演角色，同时完全认同自己在游戏中的身份。在此基础上，表演式互动使设计师能够正确认识到通过电子游戏与玩家进行智力和情感交流的重要性，而不是将互动局限于纯粹的程序化反馈。",
+    "role": "",
+    "roleZh": "",
+    "tags": ["Knowledge"],
+    "image": ""
+  },
+  {
     "id": "Differential repetition",
     "featured": true,
     "name": "Differential repetition (Basic Design)",
